@@ -15,3 +15,11 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 # An example controller showing a sample home page
 GET     /index                           controllers.Application.index
+
+GET     /text                           controllers.Application.text
+
+GET     /html                          controllers.Application.html
+
+GET     /header                      controllers.Application.withHeaders
+
+GET    /cookie                           controllers.Application.cookie
